@@ -6,10 +6,9 @@ metadata:
     app: nginx
 spec:
   ports:
-    - name: http
-      protocol: TCP
-      port: 80
-      targetPort: http
+    - protocol: TCP
+      port: 8080
+      targetPort: 80
   selector:
     app: nginx
   type: ClusterIP
