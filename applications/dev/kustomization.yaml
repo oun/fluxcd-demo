@@ -4,5 +4,6 @@ namespace: dev
 resources:
   - namespace.yaml
   - ../base/podinfo
+  - ../base/nginx
 patchesStrategicMerge:
   - podinfo.yaml
